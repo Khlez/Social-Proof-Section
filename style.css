@@ -135,7 +135,9 @@ main {
       url(bg-pattern-bottom-desktop.svg) right -100%;
     background-repeat: no-repeat;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 
   main {
