@@ -45,7 +45,7 @@ main {
 .header p {
   color: var(--paragraph);
   line-height: 1.3rem;
-  font-weight: 700;
+  font-weight: 500;
   padding-top: 1.5em;
   text-shadow: 0px 0px 1px;
 }
@@ -126,8 +126,7 @@ main {
   padding-top: 1.5em;
   line-height: 1.3em;
   color: var(--ratings);
-
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media (min-width: 1000px) {
@@ -140,7 +139,7 @@ main {
   }
 
   main {
-    width: 75%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
@@ -159,7 +158,7 @@ main {
   }
 
   .ratings-box {
-    width: 25em;
+    width: 27em;
     flex-direction: row;
   }
 
@@ -192,7 +191,7 @@ main {
   }
 
   .reviews {
-    width: 20.4em;
+    width: 22em;
   }
 
   .one {
